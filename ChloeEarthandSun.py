@@ -11,7 +11,7 @@ x = 4000000.00
 y = 80000.00
 G = 0.0000000000667
 M = 5e24
-delta = 10
+delta = 100
 
 #holder arrays for animation function
 holderx = []

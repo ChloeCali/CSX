@@ -1,7 +1,17 @@
+import numpy as np
 
+def function(x):
+    return .173 * x + 6.87
 
-def main():
+psi = 120
+angle = np.radians(45)
 
-if __name__ == "__main__":
-    main()
+vel = function(psi)
 
+time = np.sin(angle) * function(psi) / 4.9
+
+range = np.cos(angle) * vel * time
+
+print(time)
+print(range)
+print(vel)
